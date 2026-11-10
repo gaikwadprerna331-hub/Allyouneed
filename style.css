@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #ff9800; /* vibrant orange */
+    --accent-color: #4caf50; /* fresh green */
+    --glass-bg: rgba(255, 255, 255, 0.9);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fffaeb;
+}
+
+.navbar {
+    background: rgba(87, 145, 40, 0.95) !important;
+    backdrop-filter: blur(5px);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.btn-custom {
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-color: var(--accent-color);
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-color: #388e3c;
+    color: white;
+}
+
+.hero-section h1 {
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+}
